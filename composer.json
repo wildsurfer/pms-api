@@ -1,0 +1,43 @@
+{
+    "name": "pms/api",
+    "description": "PMS API",
+    "type": "pms-module",
+    "version": "0.0.1",
+    "license": "mit",
+
+    "require": {
+        "php"                                               : ">=5.4",
+        "composer/installers"                               : "*",
+        "aws/aws-sdk-php-silex"                             : "~1.0",
+        "silex/silex"                                       : "~1.2",
+        "symfony/class-loader"                              : "~2.5",
+        "symfony/console"                                   : "~2.5",
+        "symfony/debug"                                     : "~2.5",
+        "symfony/validator"                                 : "~2.5",
+        "symfony/browser-kit"                               : "~2.5",
+        "igorw/config-service-provider"                     : "~1.1",
+        "intervention/image"                                : "~1.4",
+        "unitedprototype/php-ga"                            : "dev-master",
+        "purekid/mongodm"                                   : "1.4.*",
+        "wildsurfer/silex-provider-mongodm"                 : "dev-master",
+        "jdesrosiers/silex-cors-provider"                   : "~0.1"
+    },
+    "require-dev": {
+        "symfony/css-selector"                              : "~2.3",
+        "symfony/dom-crawler"                               : "~2.3",
+        "chriskite/phactory"                                : "dev-master",
+        "mockery/mockery"                                   : "dev-master@dev",
+        "phpunit/phpunit"                                   : "~3.7",
+        "behat/behat"                                       : "2.4.*@stable",
+        "fzaninotto/faker"                                  : "1.1.*"
+    },
+    "minimum-stability"                                     : "stable",
+    "autoload": {
+        "psr-4": {
+            "Pms\\Api\\"                                    : "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}

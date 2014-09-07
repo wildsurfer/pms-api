@@ -1,0 +1,7 @@
+# Symfony directories
+/vendor/*
+/web/uploads/*
+/web/bundles/*
+
+#IDE
+/.idea/*
