@@ -1,6 +1,6 @@
 <?php
 
-namespace Pms\Silex\Provider\Login;
+namespace Pms\Api\Provider\Login;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;

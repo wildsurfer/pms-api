@@ -1,6 +1,6 @@
 <?php
 
-namespace Pms\Silex\Provider\Login;
+namespace Pms\Api\Provider\Login;
 
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
 use Symfony\Component\HttpFoundation\Request;
